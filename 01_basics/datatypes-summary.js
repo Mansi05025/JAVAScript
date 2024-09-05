@@ -31,7 +31,7 @@ function myFunction = function(){
     console.log("Hello world");
     
 }
- console.log(typeof );
+ console.log(typeof myFunction  );
  
 
 
@@ -56,6 +56,30 @@ The production UnaryExpressino : typeof UnaryExpression is evaluated as follows:
  Object (native or host and does implement [[Call]])     "function"
  Object (host and does not implement [[Call]])           "Implementation-defined except may not be " undefined ", "boolean ", "number", or "string".  
    */
+
+
+//  ***********************   Memory ********************
+
+// Stack  (Primitive) ,  Heap (Non-Primitive)
+
+let myYoutubename =  "ASLdotcom"
+
+let anothername = myYoutubename
+anothername = "chasuttaaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+   email: "user@goole.com",
+   upi: "user@ybl"
+}
+
+let userTwo = "userTwo@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 
 
 
